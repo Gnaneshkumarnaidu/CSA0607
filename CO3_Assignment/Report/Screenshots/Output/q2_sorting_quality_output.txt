@@ -1,0 +1,3 @@
+Merge Sort on n=16: Comps = 46
+Quick Sort Balanced (Random) on n=16: Comps = 48, Max Depth = 6
+Quick Sort Unbalanced (Sorted Array) on n=16: Comps = 120, Max Depth = 15

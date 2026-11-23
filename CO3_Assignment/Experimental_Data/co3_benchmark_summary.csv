@@ -1,0 +1,15 @@
+Question,Algorithm,Metric,Measured_Value,Theoretical_Bound
+Q1 Part A,Tournament Max/Min (n=16),Comparisons,22,3n/2 - 2 = 22
+Q1 Part B,Binary Search (n=16),Comparisons (hit),3,floor(log2(n)) + 1 = 4
+Q2,Merge Sort (n=16),Comparisons,49,Theta(n log n)
+Q2,Quick Sort Random (n=16),Comparisons / Depth,"45 comps, depth 5",Theta(n log n)
+Q2,Quick Sort Sorted (n=16),Comparisons / Depth,"120 comps, depth 15",Theta(n^2)
+Q3,Standard Mult (16-digit),Multiplications,256,Theta(n^2) = 256
+Q3,Karatsuba Mult (16-digit),Recursive Mults,81,Theta(n^1.585) = 81
+Q4,Standard MatMul (4x4),Multiplications,64,n^3 = 64
+Q4,Strassen MatMul (4x4),Multiplications,49,7^2 = 49
+Q5,Closest Pair Brute Force (n=10),Dist Calcs,45,n(n-1)/2 = 45
+Q5,Closest Pair D&C (n=10),Dist Calcs,18,O(n log n)
+Q6 Part A,Median of Medians (n=13),Output / Correctness,Validated,O(n) worst case
+Q6 Part B,Meet-in-the-Middle (n=12),Search Space,2^6 = 64 per half,O(2^(n/2))
+Q7,Max Subarray D&C (n=9),Operations,25,Theta(n log n)

@@ -1,0 +1,4 @@
+Max-Min Tournament on n=16: Min = 3, Max = 99, Comparisons = 22
+Theoretical Comparisons: 3n/2 - 2 = 22
+Binary Search (Target 55): Found at index 9, Comparisons = 3
+Binary Search (Target 50 - Missing): Found at index -1, Comparisons = 4
