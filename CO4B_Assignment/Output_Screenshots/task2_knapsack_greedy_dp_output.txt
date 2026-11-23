@@ -1,0 +1,7 @@
+Normal Case (Capacity=50):
+  Fractional Greedy: Val=240.0, Items=[('A', 1.0, 60), ('B', 1.0, 100), ('C', 0.6666666666666666, 80.0)]
+  0/1 DP: Val=220, Items=[('B', 1.0, 100), ('C', 1.0, 120)]
+
+Counterexample Case (Capacity=40):
+  Greedy 0/1 commitment to Item1 yields value 160.
+  0/1 DP Optimum Value: 200, Items=[('Item2', 1.0, 100), ('Item3', 1.0, 100)]

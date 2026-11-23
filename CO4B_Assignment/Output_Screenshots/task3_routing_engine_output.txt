@@ -1,0 +1,9 @@
+Stage A - Dijkstra on Non-negative Network (Source 0):
+  Distances: [0, 4, 3, 4, 10, 6, 10, 9]
+  Finalization Order: [0, 2, 1, 3, 5, 7, 4, 6]
+
+Stage B - Bellman-Ford with Negative Edge (2->4 wt -3):
+  Bellman-Ford Distances: [0, 4, 3, 4, 0, 6, 1, 3]
+  Negative Cycle Detected: False
+
+Stage C - Reachable Negative Cycle Detection: Detected = True

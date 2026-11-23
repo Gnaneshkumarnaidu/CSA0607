@@ -1,0 +1,25 @@
+Total Words: 17
+
+--- Word Wrap with Line Width = 15 ---
+Minimum Total Penalty: 36
+  Line  1 (len=15, unused= 0, penalty=   0): The quick brown
+  Line  2 (len=14, unused= 1, penalty=   1): fox jumps over
+  Line  3 (len=12, unused= 3, penalty=  27): the lazy dog
+  Line  4 (len=15, unused= 0, penalty=   0): and runs across
+  Line  5 (len=13, unused= 2, penalty=   8): the wide open
+  Line  6 (len=12, unused= 3, penalty=   0): green meadow
+
+--- Word Wrap with Line Width = 20 ---
+Minimum Total Penalty: 4
+  Line  1 (len=19, unused= 1, penalty=   1): The quick brown fox
+  Line  2 (len=19, unused= 1, penalty=   1): jumps over the lazy
+  Line  3 (len=19, unused= 1, penalty=   1): dog and runs across
+  Line  4 (len=19, unused= 1, penalty=   1): the wide open green
+  Line  5 (len= 6, unused=14, penalty=   0): meadow
+
+--- Word Wrap with Line Width = 25 ---
+Minimum Total Penalty: 64
+  Line  1 (len=25, unused= 0, penalty=   0): The quick brown fox jumps
+  Line  2 (len=21, unused= 4, penalty=  64): over the lazy dog and
+  Line  3 (len=25, unused= 0, penalty=   0): runs across the wide open
+  Line  4 (len=12, unused=13, penalty=   0): green meadow

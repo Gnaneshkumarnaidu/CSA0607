@@ -1,0 +1,7 @@
+Assembly Line Scheduling Baseline:
+  Minimum Total Time = 35
+  Optimal Route Sequence = [1, 1, 2, 2]
+  Decision Trace:
+    Station 2: Line1(Stay=19, Trans=28 -> Sel=1) | Line2(Stay=24, Trans=31 -> Sel=2)
+    Station 3: Line1(Stay=22, Trans=29 -> Sel=1) | Line2(Stay=25, Trans=24 -> Sel=1)
+    Station 4: Line1(Stay=24, Trans=34 -> Sel=1) | Line2(Stay=28, Trans=28 -> Sel=2)

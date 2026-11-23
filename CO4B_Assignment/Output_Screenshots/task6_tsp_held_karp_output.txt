@@ -1,0 +1,4 @@
+TSP Held-Karp Solution (Hub + 6 Locations):
+  Minimum Total Travel Cost: 104
+  Optimal Tour: Hub -> Loc_A -> Loc_D -> Loc_E -> Loc_C -> Loc_F -> Loc_B -> Hub
+  DP States Evaluated: 487
